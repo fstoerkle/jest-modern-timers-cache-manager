@@ -4,6 +4,10 @@
   "main": "index.js",
   "author": "Florian Störkle <florian@stoerkle.net>",
   "license": "MIT",
+  "engines": {
+    "node": "14",
+    "yarn": "1"
+  },
   "dependencies": {
     "cache-manager": "3.4.4"
   },
