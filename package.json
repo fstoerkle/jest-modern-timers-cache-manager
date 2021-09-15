@@ -1,0 +1,17 @@
+{
+  "name": "jest-modern-timers-cache-manager",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Florian Störkle <florian@stoerkle.net>",
+  "license": "MIT",
+  "dependencies": {
+    "cache-manager": "3.4.4"
+  },
+  "devDependencies": {
+    "jest": "27.2.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "test-legacy-timers": "jest --config jest.config.legacy-timers.js"
+  }
+}
